@@ -2,7 +2,18 @@
 // it should have a dynamic name property
 // it should have a color property, that is silver by default
 // it should have a method called "say" that returns whatever string is passed in, with "*~*" at the beginning and end of the string
-
+class Unicorn{
+  constructor (name, speak) {
+  this.name = name;
+  this.color = silver;
+  this.speak = speak;
+}
+changeSpeak(newSpeak){
+  this.speak = newSpeak;
+}
+}
+var unicorn1("Daisy", "Hello");
+console.log(unicorn1);
 
 
 // Write a class called Vampire
@@ -10,7 +21,16 @@
 // it should have a pet property, that is a bat, by default BUT it could be dynamic if info is passed in initially
 // it should have a thirsty property, that is true by default
 // it should have a drink method. When called, the thirsty property changes to false
-
+class Vampire{
+  constructor(name){
+    this.name = name;
+    this. pet = bat;
+    thirsty = true;
+  }
+  changeThirsty(newThirsty){
+    this.thirsty = false;
+  }
+}
 
 
 //  Write a Dragon class
@@ -20,7 +40,15 @@
 //  it should have a isHungry property that is true by default
 //  it should have a eat method. If the dragon eats 4 times, it is no longer hungry
   // HINT: This requires you to use your knowledge from the conditionals lesson
-
+class dragon{
+  constructor(name, rider, color){
+    this.name = name;
+    this.rider = rider;
+    this.color = color;
+    isHungry = true;
+  }
+  changeisHungry(new isHungry)
+}
 
 
 //  BIG CHALLNEGE: Write a Hobbit class
@@ -31,3 +59,13 @@
 //  it should have an isAdult property (boolean) that is false by default. once a Hobbit is 33, it should be an adult
 //  it should have an isOld property that defaults to false. once a Hobbit is 101, it is old.
 //  it should have a hasRing property. If the Hobbit's name is "Frodo", true, if not, false.
+class Hobbit{
+  constructor(name, disposition){
+    name = name;
+    disposition = disposition;
+    age = 0
+    isAdult = false;
+    is old = false;
+    }
+
+}
